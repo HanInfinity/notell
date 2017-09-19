@@ -115,6 +115,7 @@ class NB.Module
 			NB.express = require('express')
 			NB.app = NB.express()
 			NB.server = require('http').Server(NB.app)
+			NB.port = process.env.PORT || 8013
 
 			# Sokect.io
 			if NB.conf.enable_socket_io

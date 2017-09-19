@@ -4,8 +4,8 @@
   "main": "nobone.coffee",
   "scripts": {
     "install": "coffee kit/app_mgr.coffee -- setup",
-    "test": "coffee kit/app_mgr.coffee -- test",
-    "start": "coffee kit/app_mgr.coffee -- start",
+    "start": "coffee kit/app_mgr.coffee -- test",
+    "test": "coffee kit/app_mgr.coffee -- start",
     "stop": "coffee kit/app_mgr.coffee -- stop"
   },
   "dependencies": {

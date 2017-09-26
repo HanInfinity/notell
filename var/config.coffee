@@ -1,6 +1,6 @@
 NB.conf = {
 
-	port: process.env.PORT or 8013
+	port: 8013
 
 	load_langs: ['en']
 

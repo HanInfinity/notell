@@ -114,6 +114,7 @@ class NB.Module
 		if not NB.express
 			NB.express = require('express')
 			NB.app = NB.express()
+			app.set('port', (process.env.PORT || 8013))
 			NB.server = require('http').Server(NB.app)
 
 			# Sokect.io

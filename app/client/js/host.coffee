@@ -161,4 +161,5 @@ class NT.Host
 					class: 'red'
 				}
 				localStorage.removeItem 'token'
+				@guest = new NT.Guest @socket
 		)
